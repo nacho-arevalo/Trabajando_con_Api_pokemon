@@ -1,0 +1,6 @@
+.carta{display: flex; flex-direction: column; align-items: center; border: 4px double #000; border-radius: 5px; width: 100%; height: 400px;}
+.carta__img{width: 100%; height: 50%; border-bottom: 4px double #000; padding-bottom: 5px;}
+.carta__img img{width: 100%; height: 100%;}
+.carta__nombre{color: #000; font-family: sans-serif; font-weight: bold;}
+.carta__habilidades{display: grid; grid-template-columns: repeat(6, 1fr); grid-template-rows: repeat(2, 1fr); grid-column-gap: 5px; grid-row-gap: 0px;}
+.carta__habilidades div{border: 1px solid #000; padding: 5px; text-align: center;}
